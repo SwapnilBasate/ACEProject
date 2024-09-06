@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background: url('demo2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    padding: 0px 5%;
+}
+.header .logo{
+    width: 300px;
+    height: 130px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    width: 100%;
+    height: 100%
+}
+.header i{
+    position: absolute;
+    top: 5%;
+    right:5%;
+    font-size: 1.8em;
+    color: yellow;
+    font-weight: 800;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    right: -25%;
+    width: 25%;
+    height: 100vh;
+    background: white;
+    padding: 150px 80px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.45);
+}
+.menu .links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+.menu .links i{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-size: 1.8em;
+    color: yellow;
+    font-weight: 800;
+    cursor: pointer;
+}
+.menu .links a{
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.menu .links a:hover{
+    color: yellow;
+}
+.menu .links button{
+    width: 100px;
+    padding: 3px 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    color: black;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+.menu .links button:hover{
+    color: yellow;
+    background: black;
+    border: 1px solid yellow;
+}
+.container{
+    width: 100%;
+    height: 480px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .information{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    overflow: hidden;
+}
+.container .information .img{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: self-end;
+  justify-content: center;
+}
+.container .information h2{
+    font-size: 25px;
+    color:yellow;
+    margin-bottom: 20px;
+    scale: 1.4;  
+}
+.container .information h3{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+.container .information p{
+    color: white;
+    font-size: 20px;
+}
+.container .information .btn{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    outline: none;
+    color: black;
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+.container .information .btn:hover{
+    color: yellow;
+    background: black;
+    border: 1px solid yellow;
+}
+.about{
+    width: 100%;
+    height: 550px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+.about .right,
+.about .left{
+    width: 50%;
+    height: 100%;
+    padding: 10px 40px;
+}
+.about .right{
+    background:rgba(0, 0, 0, 0.80);
+    border: 1px solid rgba(0, 0, 0, 0.80);
+    border-radius: 30px;
+}
+.about .right h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.about .right h3{
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.about .right p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: justify;
+}
+.about .left {
+    background: url('h1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    height: 400px;
+    border-radius: 60%;
+}
+
+
+
