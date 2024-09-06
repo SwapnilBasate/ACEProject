@@ -13,6 +13,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .header{
     width: 100%;
@@ -220,3 +221,217 @@ body{
 
 
 
+
+.service{
+    width: 100%;
+    height: 800px;
+    gap: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: black;
+}
+.service .parent
+{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap:40px;    
+}
+.service .parent .card11{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgb(117, 5, 223);
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+    background: url(card\ 1.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: all ease-in 0.35s;
+    
+}
+.service .parent .card22{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgb(117, 5, 223);
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+    background: url(card2.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service .parent .card33
+{
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgb(117, 5, 223);
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+    background: url(card\ 1.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.service h1
+{
+    text-align: center;
+    font-size: 40px;
+    background:linear-gradient(45deg,blueviolet,orange,darkcyan);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin:40px 0px;
+    cursor: pointer;
+}
+.service h1:hover{
+    color:rgb(252, 101, 0);
+    font-weight: bold;
+    background:linear-gradient(10ded,green);
+    background-clip: text;
+}
+.service  h2{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin:40px 0px;
+    cursor: pointer; 
+}
+.service h2:hover
+{
+    color:white;
+    font-weight: bold;
+    background:linear-gradient(10ded,green);
+    background-clip: text;
+}
+.parent .card11 .banner h2:hover,
+.parent .card22 .banner h2:hover,
+.parent .card33 .banner h2:hover
+{
+    color: hotpink;
+}
+.parent .card11 ul ,
+.parent .card22 ul ,
+.parent .card33 ul
+{
+    list-style:none;
+}
+.parent .card11 ul li,
+.parent .card22 ul li,
+.parent .card33 ul li
+{
+    
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: justify;
+    justify-content: center !important;
+    color: white;
+    transition: all ease-in 0.35s;
+}
+.parent .card11 ul li:hover,
+.parent .card22 ul li:hover,
+.parent .card33 ul li:hover
+{
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: justify;
+    cursor: pointer;
+    color: yellow;
+}
+.header1 h1
+{
+    text-align: center;
+    font-size: 40px;
+    background:linear-gradient(45deg,blueviolet,orange,darkcyan);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin:40px 0px;
+    cursor: pointer;
+}
+.image-gallery
+{
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.image-gallery img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in 0.4s;
+}
+#btnPrev{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 30px !important;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+#btnPrev:hover{
+    color: cyan;
+}
+#btnNext{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+#btnNext:hover{
+    color: cyan;
+}
+
+.content h1
+{
+    text-align: center;
+    font-size: 40px;
+    background:linear-gradient(45deg,blueviolet,orange,darkcyan);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin:40px 0px;
+    cursor: pointer;
+    margin-top: 730px;
+}
+#paragraph{
+    text-align: center;
+    text-shadow: 0px;
+    color: blueviolet;
+    font-size: 1.2em;
+    margin-bottom: 50px; 
+}
+.content01 img
+{
+    width: 100%;
+    height: 100%;
+    background: url('pratikshamolak.jpg');
+    padding-left: 30px;
+    padding-right: 30px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
