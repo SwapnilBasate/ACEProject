@@ -435,3 +435,208 @@ body{
     align-items: center;
     justify-content: center;
 }
+.contact-form{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.title2 h2{
+    width: 100%;
+    height: 80px;
+    color: white;
+}
+.container{
+    width: 850px;
+    height: 500px;
+    background:white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px ;
+    overflow: hidden;
+}
+.container .left,
+.container .right{
+    width:50%;
+    height: 100%;
+    transition: all ease-in 0.4s;
+}
+.container .left{
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 15px;
+}
+.container .left h2{
+    color: white;
+    font-size: 22px;
+}
+.container .left p{
+    font-weight: 500;
+    color: white;
+}
+.container .left button{
+    padding: 5px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px rgba(0,0,0.35);
+    outline: none;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.container .left button:hover{
+    background: orangered;
+    color: white;
+    border: 2px solid orangered;
+}
+.container .right{
+    background:white;
+    padding: 20px 0px;width: 50%;
+    height: 100%;
+    transition: all ease-in 0.4s;
+    color: black;
+}
+.container .right .title h2{
+    color: black;
+    font-weight: 900;
+}
+.container .right form{
+    padding: 10px 50px;
+}
+.container .right form .title{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+}
+.container .right form .input-field{
+    width: 100%;
+    padding: 8px;
+    background: rgba(0, 0, 128, 0.623);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 3px;
+    gap: 5px;
+    max-height: 100px;
+}
+.container .right form .input-field i{
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.container .right form .input-field input{
+    width: 90%;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.container .right form .input-field input::placeholder{
+    color: whitesmoke;
+}
+.container .right form button{
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container .right form button:hover{
+    background: orangered;
+    color: white;
+    border: 2px solid orangered;
+    font-size: 16px;
+}
+#fnField{
+    transition: all ease-in 0.4s;
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+#cpField{
+    transition: all ease-in 0.4s;
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.84);
+    padding: 30px 0px;
+}
+.footer .container2{
+    margin: auto 60px;
+}
+.footer .container2 .row .col ul{
+    list-style: none;
+}
+.footer .container2 .row .col ul li{
+    margin-top: 0px;
+}
+.footer .container2 .row .col ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 29px;
+}
+.footer .container2 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .container2 .row .col{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer .container2 .row .col h4{
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 8px;
+}
+.footer .container2 .row .col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all ease-in 0.4s;
+}
+.footer .container2 .row .col .social-links a:hover{
+    background-color: rgba(0, 0, 0, 0.177);
+    color: white;
+}
+.footer .container2 .row .col .social-links a i{
+    font-size: 20px;
+}
+.footer .copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
