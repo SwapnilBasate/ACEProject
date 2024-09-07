@@ -13,7 +13,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 .header{
     width: 100%;
@@ -23,6 +22,7 @@ body{
     justify-content: space-between;
     background:transparent;
     padding: 0px 5%;
+     
 }
 .header .logo{
     width: 300px;
@@ -94,13 +94,14 @@ body{
     border-radius: 3px;
     cursor: pointer;
     outline: none;
+
 }
 .menu .links button:hover{
     color: yellow;
     background: black;
     border: 1px solid yellow;
 }
-.container{
+.container1{
     width: 100%;
     height: 480px;
     padding: 10px 20px;
@@ -110,7 +111,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container .information{
+.container1 .information{
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -118,31 +119,33 @@ body{
     align-items: center;
     justify-content: end;
     text-align: center;
-    overflow: hidden;
+     overflow: hidden;
 }
-.container .information .img{
+.container1 .information .img{
   width: 100%;
   height: 120px;
   display: flex;
   align-items: self-end;
   justify-content: center;
 }
-.container .information h2{
+
+.container1 .information h2{
     font-size: 25px;
     color:yellow;
     margin-bottom: 20px;
-    scale: 1.4;  
+    scale: 1.4;
+    
 }
-.container .information h3{
+.container1 .information h3{
     font-size: 25px;
     color: white;
     margin-bottom: 20px;
 }
-.container .information p{
+.container1 .information p{
     color: white;
     font-size: 20px;
 }
-.container .information .btn{
+.container1 .information button{
     width: 120px;
     height: 40px;
     margin-top: 10px;
@@ -159,7 +162,7 @@ body{
     transition: all ease-in 0.5s;
     cursor: pointer;
 }
-.container .information .btn:hover{
+.container1 .information button:hover{
     color: yellow;
     background: black;
     border: 1px solid yellow;
@@ -172,6 +175,7 @@ body{
     align-items: center;
     justify-content: center;
     background: whitesmoke;
+    
 }
 .about .right,
 .about .left{
@@ -183,6 +187,7 @@ body{
     background:rgba(0, 0, 0, 0.80);
     border: 1px solid rgba(0, 0, 0, 0.80);
     border-radius: 30px;
+   
 }
 .about .right h2{
     color: white;
@@ -217,14 +222,11 @@ body{
     height: 400px;
     height: 400px;
     border-radius: 60%;
+
 }
-
-
-
-
 .service{
     width: 100%;
-    height: 800px;
+    height: 550px;
     gap: 0px;
     padding-right: 30px;
     padding-left: 30px;
@@ -233,7 +235,7 @@ body{
 .service .parent
 {
     width: 100%;
-    height: 600px;
+    height: 450px;
     padding: 10px;
     display: flex !important;
     align-items: center;
@@ -277,14 +279,10 @@ body{
     background-repeat: no-repeat;
    
 }
-.service h1
-{
+.service h1{
     text-align: center;
-    font-size: 40px;
-    background:linear-gradient(45deg,blueviolet,orange,darkcyan);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    font-size: 30px;
+    color: yellow;
     margin:40px 0px;
     cursor: pointer;
 }
@@ -344,14 +342,11 @@ body{
     cursor: pointer;
     color: yellow;
 }
-.header1 h1
-{
+.header1 h1{
     text-align: center;
     font-size: 40px;
     background:linear-gradient(45deg,blueviolet,orange,darkcyan);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: yellow;
     margin:40px 0px;
     cursor: pointer;
 }
@@ -367,6 +362,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    border: 1px soild yellow;
 }
 .image-gallery img{
     position: absolute;
@@ -447,7 +443,8 @@ body{
 .title2 h2{
     width: 100%;
     height: 80px;
-    color: white;
+    color: yellow;
+    font-size: 2.5em;
 }
 .container{
     width: 850px;
@@ -460,6 +457,7 @@ body{
     justify-content: center;
     gap:5px ;
     overflow: hidden;
+    border: 3px solid yellow;
 }
 .container .left,
 .container .right{
@@ -468,7 +466,10 @@ body{
     transition: all ease-in 0.4s;
 }
 .container .left{
-    background-color: navy;
+    background:url(demo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -501,15 +502,19 @@ body{
     border: 2px solid orangered;
 }
 .container .right{
-    background:white;
+    background:url(Conatact\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px 0px;width: 50%;
     height: 100%;
     transition: all ease-in 0.4s;
     color: black;
 }
 .container .right .title h2{
-    color: black;
+    color: blueviolet;
     font-weight: 900;
+    font-size: 30px;
 }
 .container .right form{
     padding: 10px 50px;
@@ -610,7 +615,7 @@ body{
 }
 .footer .container2 .row .col h4{
     text-transform: uppercase;
-    color: blue;
+    color: yellow;
     margin-bottom: 8px;
 }
 .footer .container2 .row .col .social-links a{
@@ -625,18 +630,21 @@ body{
     transition: all ease-in 0.4s;
 }
 .footer .container2 .row .col .social-links a:hover{
-    background-color: rgba(0, 0, 0, 0.177);
+    background:linear-gradient(90deg,red,blue);
     color: white;
+    scale: 1.2;
 }
 .footer .container2 .row .col .social-links a i{
     font-size: 20px;
 }
-.footer .copyright{
+.copyright{
     width: 100%;
     height: 50px;
+    border: 1px solid yellow;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 14px;
+    background: black;
 }

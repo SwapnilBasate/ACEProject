@@ -35,17 +35,29 @@ gsap.from('.header .logo img',{
    
     
 })
-gsap.from('.container .information .img',{
+gsap.from('.container1 .information .img',{
     opacity:0,
     y:-100,
     delay:1.5,
     duration:0.9
 })
-gsap.from('.container .information h2',{
+gsap.from('.container1 .information h2',{
     opacity:0,
     y:100,
     scale:2.5,
     delay:2.5,
+    duration:0.5,
+})
+gsap.from('.container1 .information p',{
+    opacity:0,
+    y:400,
+    delay:2.7,
+    duration:0.5,
+})
+gsap.from('.container1 .information h3',{
+    opacity:0,
+    y:400,
+    delay:3.1,
     duration:0.5,
 })
 var tl2=gsap.timeline()
@@ -148,9 +160,9 @@ gsap.from('.service .parent .card11',{
     scrollTrigger:{
         trigger:".service .parent .card11",
         scroller:'body',
-        start:'top 10%',
-        end:'top 60%',
-        scrub:1
+        start:'top 40%',
+        end:'top 10%',
+        scrub:1,
     }
 })
 gsap.from('.service .parent .card22',{
@@ -162,8 +174,8 @@ gsap.from('.service .parent .card22',{
     scrollTrigger:{
         trigger:".service .parent .card22",
         scroller:'body',
-        start:'top 10%',
-        end:'top 60%',
+        start:'top 50%',
+        end:'top 5%',
         scrub:1
     }
 })
@@ -177,8 +189,8 @@ gsap.from('.service .parent .card33',{
     scrollTrigger:{
         trigger:".service .parent .card33",
         scroller:'body',
-        start:'top 10%',
-        end:'top 60%',
+        start:'top 40%',
+        end:'top 5%',
         scrub:1
     }
 })
