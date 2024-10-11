@@ -144,7 +144,7 @@ btnPrev1.addEventListener('click',()=>{
 
 setInterval(() => {
     counter++
-    if(counter>6){
+    if(counter>5){
         counter=0
     }
     image.forEach((image)=>{
