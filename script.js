@@ -124,7 +124,7 @@ image.forEach((image)=>{
 var counter=0
 btnNext1.addEventListener('click',()=>{
     counter++
-    if(counter>5){
+    if(counter>4){
         counter=0
     }
     image.forEach((image)=>{
@@ -135,7 +135,7 @@ btnNext1.addEventListener('click',()=>{
 btnPrev1.addEventListener('click',()=>{
     counter--
     if(counter<0){
-        counter=5
+        counter=4
     }
     image.forEach((image)=>{
         image.style.transform=`translateX(-${counter*100}%)`
@@ -144,13 +144,13 @@ btnPrev1.addEventListener('click',()=>{
 
 setInterval(() => {
     counter++
-    if(counter>5){
+    if(counter>4){
         counter=0
     }
     image.forEach((image)=>{
         image.style.transform=`translateX(-${counter*100}%)`
     })
-},5000);
+},3000);
 gsap.from('.service .parent .card11',{
     x:100,
     opacity:0,
@@ -160,8 +160,8 @@ gsap.from('.service .parent .card11',{
     scrollTrigger:{
         trigger:".service .parent .card11",
         scroller:'body',
-        start:'top 40%',
-        end:'top 10%',
+        start:'top 60%',
+        end:'top 40%',
         scrub:1,
     }
 })
@@ -174,8 +174,8 @@ gsap.from('.service .parent .card22',{
     scrollTrigger:{
         trigger:".service .parent .card22",
         scroller:'body',
-        start:'top 50%',
-        end:'top 5%',
+        start:'top 60%',
+        end:'top 40%',
         scrub:1
     }
 })
@@ -189,8 +189,8 @@ gsap.from('.service .parent .card33',{
     scrollTrigger:{
         trigger:".service .parent .card33",
         scroller:'body',
-        start:'top 40%',
-        end:'top 5%',
+        start:'top 60%',
+        end:'top 40%',
         scrub:1
     }
 })
